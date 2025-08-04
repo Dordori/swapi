@@ -1,0 +1,59 @@
+div{
+    display: inline-block;
+    border: solid 2px black;
+    height: fit-content;
+    width: fit-content;
+    margin: 5px;
+    padding: 8px;
+}
+div h2+h2{
+    color: blue;
+}
+div div div div{
+    border: solid 1px darkblue;
+    background-color: bisque;
+}
+img{
+    margin: 3px;
+}
+
+.hide {
+    display: none;
+}
+
+
+#header{
+    background-color: aqua;
+}
+#searchInput{
+        height: 2rem;
+    width:16rem;
+    font-size: 28px;
+}
+
+.cDiv{
+    background-color:yellow;
+}
+
+.filmsContainer{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.eDiv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+.eDiv:hover {
+  cursor: pointer;
+}
+div div a{margin: 3px; display:block;}
+.episodeDescContainer{
+    display:block;
+}
